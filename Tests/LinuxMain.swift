@@ -5,6 +5,7 @@ XCTMain(
     [
         CodableUserDefaultsArrayTests.allTests(),
         CodableUserDefaultsBooleanTests.allTests(),
+        CodableUserDefaultsDictionaryTests.allTests(),
         CodableUserDefaultsDoubleTests.allTests(),
         CodableUserDefaultsIntegerTests.allTests(),
         CodableUserDefaultsStringTests.allTests(),
