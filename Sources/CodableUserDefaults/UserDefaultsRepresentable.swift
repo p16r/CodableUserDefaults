@@ -14,8 +14,6 @@ extension Bool:         UserDefaultsRepresentable {}
 
 extension String:       UserDefaultsRepresentable {}
 
-extension URL:          UserDefaultsRepresentable {}
-
 extension Data:         UserDefaultsRepresentable {}
 
 extension Array:        UserDefaultsRepresentable
