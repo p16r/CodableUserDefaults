@@ -9,5 +9,6 @@ XCTMain(
         CodableUserDefaultsDoubleTests.allTests(),
         CodableUserDefaultsIntegerTests.allTests(),
         CodableUserDefaultsStringTests.allTests(),
+        CodableUserDefaultsURLTests.allTests(),
     ]
 )

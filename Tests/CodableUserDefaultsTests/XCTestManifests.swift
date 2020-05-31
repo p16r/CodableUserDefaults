@@ -10,6 +10,7 @@ public func allTests() -> [XCTestCaseEntry] {
         testCase(CodableUserDefaultsDoubleTests.allTests),
         testCase(CodableUserDefaultsIntegerTests.allTests),
         testCase(CodableUserDefaultsStringTests.allTests),
+        testCase(CodableUserDefaultsURLTests.allTests),
     ]
 }
 
