@@ -16,9 +16,10 @@ final class CodableUserDefaultsIntegerTests: XCTestCase {
         key: "integer",
         userDefaults: .standard,
         notificationCenter: .default
-    ) private var publishedInteger
+    ) private var publishedInteger = 0
 
     @CodableUserDefaults<Int>(
+        wrappedValue: nil,
         key: "unpublishedInteger",
         userDefaults: .standard,
         notificationCenter: nil
