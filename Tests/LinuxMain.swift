@@ -1,4 +1,9 @@
 import CodableUserDefaultsTests
 import XCTest
 
-XCTMain([CodableUserDefaultsIntegerTests.allTests()])
+XCTMain(
+    [
+        CodableUserDefaultsIntegerTests.allTests(),
+        CodableUserDefaultsStringTests.allTests(),
+    ]
+)
